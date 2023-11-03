@@ -1,6 +1,8 @@
+main{
+    padding-top: 140px;
+}
 .home{
     background-color: $color-body;
-    padding-top: 140px;
     .section_one{
         position: relative;
         background-color: #E1AA00;
@@ -411,8 +413,10 @@
     }
 }
 @include for-tablet(){
-    .home{
+    main{
         padding-top: 100px;
+    }
+    .home{
         .section_one{
             height: 500px;
         }
