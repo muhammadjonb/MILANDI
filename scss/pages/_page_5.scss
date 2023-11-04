@@ -1,1 +1,112 @@
 // 
+.page_5{
+      .par1 {
+    color: #000;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 19.6px */
+    letter-spacing: 0.1px;
+  }
+  .categ {
+    padding-top: 32px;
+    width: 264px;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+  }
+  .par2 {
+    color: #000;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Gotham Pro;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 106.667% */
+  }
+  .par3 {
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      color: #000;
+      font-variant-numeric: lining-nums proportional-nums;
+      font-family: Montserrat;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%; /* 28px */
+      letter-spacing: 0.15px;
+    }
+  }
+  .line {
+    background-color: #ccc;
+    width: 264px;
+    height: 1px;
+    margin-top: 16px;
+  }
+  .btn {
+    text-align: center;
+
+    button {
+      border: none;
+      margin-top: 8px;
+      padding: 12px 75px;
+      width: 232px;
+      height: 40px;
+      background: var(--Yellow, #ffc000);
+      color: var(--Black, #0d0d0d);
+      font-variant-numeric: lining-nums proportional-nums;
+      font-family: Gotham Pro;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px; /* 128.571% */
+      letter-spacing: 0.56px;
+    }
+  }
+  .img {
+    border-radius: 12px;
+  }
+  .par4 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .card {
+    width: 264px;
+    height: 325px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .lop {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .page_5{
+    .cards {
+        flex-wrap: wrap;
+    }
+    .lop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+  }
+}
